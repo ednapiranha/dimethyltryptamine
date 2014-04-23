@@ -7,7 +7,7 @@ header:first-child {
   padding: 0;
   height: 5rem;
   color: #fff;
-  background: url(./headers/images/ui/header.png) repeat-x 0 0;
+  background-color: #111;
   background-size: auto 100%;
   border: none;
 }
@@ -279,7 +279,7 @@ section[role="region"] header h2 {
  * ---------------------------------- */
 section[role="region"].skin-dark > header:first-child,
 .skin-dark header:first-child {
-  background-image: url(./headers/images/ui/dark/header.png);
+  background-color: #111;
 }
 
 section[role="region"].skin-dark > header:first-child menu[type="toolbar"] a:last-child,
